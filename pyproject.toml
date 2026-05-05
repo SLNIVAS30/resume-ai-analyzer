@@ -6,8 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "resume-ai-analyzer"
 version = "1.0.0"
 description = "Professional Resume Analysis and Career Guidance Tool"
-authors = [{name = "Resume AI Team"}]
-license = {text = "MIT"}
 dependencies = [
     "streamlit==1.28.1",
     "pandas==2.1.3",
