@@ -1,0 +1,20 @@
+build:
+  languages:
+    - python
+  python:
+    python-version: "3.9.16"
+    packages:
+      - numpy
+      - pandas
+      - streamlit
+      - plotly
+      - nltk
+      - pdfminer3
+      - pyresparser
+      - streamlit-tags
+      - Pillow
+      - geocoder
+      - geopy
+
+run:
+  web: streamlit run App_fixed.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true
