@@ -13,7 +13,8 @@ RUN pip install --no-cache-dir -r requirements-deploy.txt
 # Download NLTK data
 RUN python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
 
-# Download spaCy model
+# Install spaCy and download model
+RUN pip install spacy
 RUN python -m spacy download en_core_web_sm
 
 # Copy application files
