@@ -9,3 +9,5 @@ streamlit-tags==1.0.5
 Pillow==10.0.1
 geocoder==1.38.1
 geopy==2.4.1
+spacy==3.7.2
+thinc==8.2.3
